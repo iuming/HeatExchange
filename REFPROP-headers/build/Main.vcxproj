@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ECDA5B42-ED52-3EF1-BAA3-DF2EA70AB357}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Main</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Main.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Main.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Main.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Main.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Main</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/Debug/Main.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/Debug/Main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/Release/Main.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/Release/Main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/MinSizeRel/Main.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/MinSizeRel/Main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/RelWithDebInfo/Main.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/RelWithDebInfo/Main.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\University major\换热器课设\HeatExchange\REFPROP-headers\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/University major/换热器课设/HeatExchange/REFPROP-headers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+G:\CMake\bin\cmake.exe "-SF:/University major/换热器课设/HeatExchange/REFPROP-headers" "-BF:/University major/换热器课设/HeatExchange/REFPROP-headers/build" --check-stamp-file "F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/University major/换热器课设/HeatExchange/REFPROP-headers/CMakeLists.txt;F:\University major\换热器课设\HeatExchange\REFPROP-headers\CMakeLists.txt;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeCCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeSystem.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\feature_tests.c;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\feature_tests.cxx;G:\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;G:\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;G:\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;G:\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/University major/换热器课设/HeatExchange/REFPROP-headers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+G:\CMake\bin\cmake.exe "-SF:/University major/换热器课设/HeatExchange/REFPROP-headers" "-BF:/University major/换热器课设/HeatExchange/REFPROP-headers/build" --check-stamp-file "F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/University major/换热器课设/HeatExchange/REFPROP-headers/CMakeLists.txt;F:\University major\换热器课设\HeatExchange\REFPROP-headers\CMakeLists.txt;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeCCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeSystem.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\feature_tests.c;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\feature_tests.cxx;G:\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;G:\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;G:\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;G:\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/University major/换热器课设/HeatExchange/REFPROP-headers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+G:\CMake\bin\cmake.exe "-SF:/University major/换热器课设/HeatExchange/REFPROP-headers" "-BF:/University major/换热器课设/HeatExchange/REFPROP-headers/build" --check-stamp-file "F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/University major/换热器课设/HeatExchange/REFPROP-headers/CMakeLists.txt;F:\University major\换热器课设\HeatExchange\REFPROP-headers\CMakeLists.txt;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeCCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeSystem.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\feature_tests.c;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\feature_tests.cxx;G:\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;G:\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;G:\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;G:\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/University major/换热器课设/HeatExchange/REFPROP-headers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+G:\CMake\bin\cmake.exe "-SF:/University major/换热器课设/HeatExchange/REFPROP-headers" "-BF:/University major/换热器课设/HeatExchange/REFPROP-headers/build" --check-stamp-file "F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/University major/换热器课设/HeatExchange/REFPROP-headers/CMakeLists.txt;F:\University major\换热器课设\HeatExchange\REFPROP-headers\CMakeLists.txt;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeCCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\3.14.4\CMakeSystem.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\feature_tests.c;F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\feature_tests.cxx;G:\CMake\share\cmake-3.14\Modules\CMakeCCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeCCompilerABI.c;G:\CMake\share\cmake-3.14\Modules\CMakeCInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCXXCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeCXXCompilerABI.cpp;G:\CMake\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeCompilerIdDetection.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCXXCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompileFeatures.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerABI.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineCompilerId.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineRCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeDetermineSystem.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeFindBinUtils.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeParseImplicitIncludeInfo.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeParseImplicitLinkInfo.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeRCCompiler.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeRCInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeSystem.cmake.in;G:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCXXCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestCompilerCommon.cmake;G:\CMake\share\cmake-3.14\Modules\CMakeTestRCCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\ADSP-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\ARMCC-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\AppleClang-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Borland-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Cray-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GHS-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GNU-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\HP-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IAR-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Intel-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C-FeatureTests.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\MSVC-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\PGI-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\PathScale-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SCO-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\TI-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\Watcom-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\XL-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\zOS-C-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;G:\CMake\share\cmake-3.14\Modules\CompilerId\VS-10.vcxproj.in;G:\CMake\share\cmake-3.14\Modules\Internal\FeatureTesting.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-Determine-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\Windows.cmake;G:\CMake\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;F:\University major\换热器课设\HeatExchange\REFPROP-headers\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\University major\换热器课设\HeatExchange\REFPROP-headers\main.cpp" />
+    <ClCompile Include="F:\University major\换热器课设\HeatExchange\REFPROP-headers\other.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\University major\换热器课设\HeatExchange\REFPROP-headers\build\ZERO_CHECK.vcxproj">
+      <Project>{F6DC5976-4563-3DED-AC21-4BF0093341FC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

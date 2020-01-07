@@ -1,0 +1,3 @@
+F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/CMakeFiles/Main.dir
+F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/CMakeFiles/ALL_BUILD.dir
+F:/University major/换热器课设/HeatExchange/REFPROP-headers/build/CMakeFiles/ZERO_CHECK.dir
