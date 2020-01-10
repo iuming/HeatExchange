@@ -1,0 +1,7 @@
+﻿  HeatExchange.cpp
+f:\university major\换热器课设\heatexchange\heatexchange\heatexchange.cpp(25): warning C4101: “HotWater_Outlet”: 未引用的局部变量
+f:\university major\换热器课设\heatexchange\heatexchange\heatexchange.cpp(25): warning C4101: “HotWater_Inlet”: 未引用的局部变量
+f:\university major\换热器课设\heatexchange\heatexchange\thercal.h(164): warning C4715: “Get_TubeSpacing_Ratio”: 不是所有的控件路径都返回值
+f:\university major\换热器课设\heatexchange\heatexchange\thercal.h(202): warning C4715: “Get_PipeRow_Correction_Factor”: 不是所有的控件路径都返回值
+f:\university major\换热器课设\heatexchange\heatexchange\thercal.h(171): warning C4715: “Get_Shell_NuNum”: 不是所有的控件路径都返回值
+  HeatExchange.vcxproj -> F:\University major\换热器课设\HeatExchange\x64\Debug\HeatExchange.exe

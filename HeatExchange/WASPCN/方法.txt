@@ -1,0 +1,2 @@
+1、导入库文件(WASPCN.Lib)和头文件(WASPCN.h)及dll文件（WASPCN.dll）进对应项目
+2、在需要调用的程序中#include头文件(WASPCN.h)即：加上此语句 #include "WASPCN.h" 

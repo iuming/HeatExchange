@@ -1,0 +1,3 @@
+Q:win7 环境下运行visual studio 不能加载水蒸气的动态链接库
+S:在管理员运行DOS下输入：bcdedit.exe/set {current} nx alwaysoff
+即关闭DEF
